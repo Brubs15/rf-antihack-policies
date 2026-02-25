@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "listVersion": "2026.02.25-01",
+  "updatedUtc": "2026-02-25T00:00:00Z",
+  "policyHints": {
+    "onDetect": "escalate_monitoring",
+    "escalationMultiplier": 3
+  },
+  "items": [
+    { "id": "sus-cheatengine", "processName": "cheatengine-x86_64.exe", "risk": "high", "reason": "Cheat Engine" },
+    { "id": "sus-cheatengine-legacy", "processName": "cheatengine.exe", "risk": "high", "reason": "Cheat Engine" },
+    { "id": "sus-processhacker", "processName": "processhacker.exe", "risk": "medium", "reason": "Process tool" },
+    { "id": "sus-systeminformer", "processName": "systeminformer.exe", "risk": "medium", "reason": "Process tool" },
+    { "id": "sus-x64dbg", "processName": "x64dbg.exe", "risk": "high", "reason": "Debugger" },
+    { "id": "sus-x32dbg", "processName": "x32dbg.exe", "risk": "high", "reason": "Debugger" },
+    { "id": "sus-ollydbg", "processName": "ollydbg.exe", "risk": "high", "reason": "Debugger" },
+    { "id": "sus-procmon", "processName": "procmon.exe", "risk": "low", "reason": "Sysinternals monitor (can be used for analysis)" },
+    { "id": "sus-procexp", "processName": "procexp.exe", "risk": "low", "reason": "Sysinternals explorer (can be used for analysis)" }
+  ]
+}

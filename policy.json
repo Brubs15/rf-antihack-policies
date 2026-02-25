@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "2026.02.25-01",
+  "mode": "balanced",
+  "defaults": {
+    "dedupeWindowSeconds": 15,
+    "notifyLauncherOn": ["high", "critical"],
+    "actionOnCritical": "kill",
+    "actionOnHigh": "kill",
+    "actionOnMedium": "observe",
+    "actionOnLow": "observe"
+  },
+  "categories": {
+    "handle": {
+      "rules": [
+        {
+          "id": "handle-all-access",
+          "match": { "rightsAny": ["ALL_ACCESS"] },
+          "severity": "critical",
+          "action": "kill",
+          "reason": "Handle ALL_ACCESS on RF process"
+        },
+        {
+          "id": "handle-vm-write",
+          "match": { "rightsAny": ["VM_WRITE"] },
+          "severity": "high",
+          "action": "kill",
+          "reason": "Handle VM_WRITE on RF process"
+        },
+        {
+          "id": "handle-vm-operation",
+          "match": { "rightsAny": ["VM_OPERATION"] },
+          "severity": "medium",
+          "action": "observe",
+          "reason": "Handle VM_OPERATION on RF process"
+        }
+      ]
+    },
+    "process": {
+      "rules": [
+        {
+          "id": "process-blocklisted",
+          "match": { "isBlocklisted": true },
+          "severity": "critical",
+          "action": "kill",
+          "reason": "Process is blocklisted"
+        },
+        {
+          "id": "process-suspicious",
+          "match": { "isSuspicious": true },
+          "severity": "medium",
+          "action": "escalate",
+          "reason": "Suspicious process detected"
+        }
+      ]
+    },
+    "injection": {
+      "rules": [
+        {
+          "id": "unknown-module-loaded",
+          "match": { "unknownModule": true },
+          "severity": "high",
+          "action": "kill",
+          "reason": "Unknown module loaded into RF process"
+        }
+      ]
+    },
+    "integrity": {
+      "rules": [
+        {
+          "id": "integrity-fail",
+          "match": { "integrityFailed": true },
+          "severity": "high",
+          "action": "kill",
+          "reason": "Integrity check failed"
+        }
+      ]
+    }
+  }
+}
