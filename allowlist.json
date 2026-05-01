@@ -10,6 +10,10 @@
         "Microsoft Windows",
         "Microsoft Corporation"
       ]
+    },
+    {
+      "id": "allow-rf",
+      "sha256": "BE76B5047BA5987EE42FA14D8ABFB894AF498F42B02AE04C1077AF5E01D40004"
     }
   ]
 }
