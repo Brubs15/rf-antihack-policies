@@ -30,9 +30,15 @@
       
 
     },
-     {
+      {
       "id": "LSDaemon",
       "sha256": "481a56edace8f1215b1c2b60471d1212d428f7a5fe5fe8aa7aac6833ac6218f3"
+      
+
+    },
+      {
+      "id": "GameManagerService3",
+      "sha256": "e2a4d1ddae836987759fa0249151b307e1958455b14b56df8faf32873f1891ab"
       
 
     }
