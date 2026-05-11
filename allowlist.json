@@ -1,6 +1,7 @@
+```json
 {
   "version": 1,
-  "updatedAt": "2026-02-04T19:30:00Z",
+  "updatedAt": "2026-05-11T12:00:00Z",
   "rules": [
     {
       "id": "allow-svchost-ms",
@@ -14,54 +15,55 @@
     {
       "id": "allow-rf",
       "sha256": "00f6d3b93a840850d4a8b931ffc327fd339cc4c5fc054dd753ad2dfc70d7a5a4"
-      
-
     },
-        {
+    {
       "id": "MedalEncoder",
       "sha256": "6e159487eea51aad39268484f17237a8a987175aeaab727a5d96be3314b6af10"
-      
-
-    
     },
-        {
+    {
       "id": "BraveUpdate",
       "sha256": "582a5171744ab9d114df123f730d28d497704e92f1b8ede9979c69ff885628ad"
-      
-
     },
-      {
+    {
       "id": "LSDaemon",
       "sha256": "481a56edace8f1215b1c2b60471d1212d428f7a5fe5fe8aa7aac6833ac6218f3"
-      
-
     },
-      {
+    {
       "id": "GameManagerService3",
       "sha256": "e2a4d1ddae836987759fa0249151b307e1958455b14b56df8faf32873f1891ab"
-      
-
     },
     {
       "id": "ProcessGovernor",
       "sha256": "e6b1ecf4a0dd2eccb933c8568e1e7fe693f3373ea9cdfda17024035f63cc23af"
-      
-
     },
-      {
+    {
       "id": "ProcessLasso",
       "sha256": "d293b774117149d7d7a6cf0ccebd886f1c574e17b827769eade5fe9264a1c09a"
-      
-
     },
-      {
+    {
       "id": "RAVBg64",
       "sha256": "69179f8cfc3a1eb660f85d945fa47ed434e7a88b1d1bff5e27ddd065f30fde7a"
-      
+    },
 
+    {
+      "id": "blackdesert-handle",
+      "processName": "BlackDesert64.exe",
+      "allowedDetections": [
+        "HANDLE_WRITE"
+      ],
+      "mode": "suppress_report",
+      "reason": "Sistema anti-cheat externo conhecido para jogos"
+    },
+
+    {
+      "id": "obs-capture",
+      "processName": "obs64.exe",
+      "allowedDetections": [
+        "HANDLE_READ"
+      ],
+      "mode": "reduce_severity",
+      "reason": "OBS capture"
     }
-    
-    
   ]
 }
-
+```
