@@ -47,7 +47,7 @@
 
     {
       "id": "blackdesert-handle",
-      "processName": "BlackDesert64.exe",
+      "processName": "BlackDesert64",
       "allowedDetections": [
         "HANDLE_WRITE"
       ],
@@ -57,7 +57,7 @@
 
     {
       "id": "obs-capture",
-      "processName": "obs64.exe",
+      "processName": "obs64",
       "allowedDetections": [
         "HANDLE_READ"
       ],
