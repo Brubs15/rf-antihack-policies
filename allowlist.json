@@ -1,4 +1,3 @@
-```json
 {
   "version": 1,
   "updatedAt": "2026-05-11T12:00:00Z",
@@ -44,20 +43,18 @@
       "id": "RAVBg64",
       "sha256": "69179f8cfc3a1eb660f85d945fa47ed434e7a88b1d1bff5e27ddd065f30fde7a"
     },
-
     {
       "id": "blackdesert-handle",
-      "processName": "BlackDesert64",
+      "processName": "BlackDesert64.exe",
       "allowedDetections": [
         "HANDLE_WRITE"
       ],
       "mode": "suppress_report",
       "reason": "Sistema anti-cheat externo conhecido para jogos"
     },
-
     {
       "id": "obs-capture",
-      "processName": "obs64",
+      "processName": "obs64.exe",
       "allowedDetections": [
         "HANDLE_READ"
       ],
@@ -66,4 +63,3 @@
     }
   ]
 }
-```
