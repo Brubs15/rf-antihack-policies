@@ -8,15 +8,25 @@
     "31691987bedf9af2e64a5a1d17d835ad0d28ca2d77645e2e5721927390a00c49",
     "c621dea4f2a96308baa240bafee66a8eb31eb8364b0b6540eeeb0e0d785a299f",
     "bd2c2cf0631d881ed382817afcce2b093f4e412ffb170a719e2762f250abfea4",
+    "7f91a58afe6c79c97a60bd9ccfec2df650f3ca8fda6201c845eda011a714eec8",
     "E5F6G7H8..."
   ],
-  "blockedProcessNames": [ 
-    "processhacker.exe",
-    "x64dbg.exe", 
-    "ollydbg.exe",
-    "CE.exe" 
-    
-  ]
+  "blockedProcessNames": [
+  "processhacker.exe",
+  "processhacker64.exe",
+  "systeminformer.exe",
+  "procexp.exe",
+  "procexp64.exe",
+  "processlasso.exe",
+  "pssuspend.exe",
+  "resmon.exe",
+  "x64dbg.exe",
+  "x32dbg.exe",
+  "ollydbg.exe",
+  "windbg.exe",
+  "cheatengine.exe",
+  "ce.exe"
+]
 }
 
 
