@@ -44,6 +44,14 @@
       "sha256": "69179f8cfc3a1eb660f85d945fa47ed434e7a88b1d1bff5e27ddd065f30fde7a"
     },
     {
+      "id": "RF_Launcher",
+      "sha256": "d6160aa39e668a0186788034ffae9263d1e802a19facc6ae81cbc3634efffb69"
+    },
+    {
+      "id": "MedalEncoder",
+      "sha256": "a2bd7841f32b09d6082fd76f07bd5bf44e58171f81d1c4da4b5fe211d0da34a7"
+    },
+    {
       "id": "blackdesert-handle",
       "processName": "BlackDesert64.exe",
       "allowedDetections": [
