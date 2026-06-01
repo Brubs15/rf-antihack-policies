@@ -9,6 +9,7 @@
     "c621dea4f2a96308baa240bafee66a8eb31eb8364b0b6540eeeb0e0d785a299f",
     "bd2c2cf0631d881ed382817afcce2b093f4e412ffb170a719e2762f250abfea4",
     "7f91a58afe6c79c97a60bd9ccfec2df650f3ca8fda6201c845eda011a714eec8",
+    "f3197ce5bdd65f36e9ad2cbe64f99b76196e569024cebe549ce3b4c2ebafef6c",
     "E5F6G7H8..."
   ],
   "blockedProcessNames": [
@@ -24,8 +25,8 @@
   "x32dbg.exe",
   "ollydbg.exe",
   "windbg.exe",
-  "cheatengine.exe",
-  "ce.exe"
+  "cheatengine.exe"
+  
   
 ]
 }
