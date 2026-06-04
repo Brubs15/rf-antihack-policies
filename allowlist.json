@@ -55,6 +55,11 @@
       "id": "MedalEncoder",
       "sha256": "2a340c9b74598b306a3a1cae6d18208cac29e20979b722f0e6011fed43015840"
     },
+        {
+      "id": "ProcessGovernor",
+      "sha256": "5cd8689247dcc2ea539fa02b0e2f7bb84e9ad195d93d85eb1bb3615193c28851"
+    },
+
     {
       "id": "blackdesert-handle",
       "processName": "BlackDesert64.exe",
