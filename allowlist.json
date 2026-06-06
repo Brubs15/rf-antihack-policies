@@ -59,6 +59,11 @@
       "id": "ProcessGovernor",
       "sha256": "5cd8689247dcc2ea539fa02b0e2f7bb84e9ad195d93d85eb1bb3615193c28851"
     },
+    
+        {
+      "id": "crashpad_handler",
+      "sha256": "751d0a805e24ce7bdb5ca8d1b4b5544947e499177353a13762efecffcd9eee0f"
+    },
 
     {
       "id": "blackdesert-handle",
