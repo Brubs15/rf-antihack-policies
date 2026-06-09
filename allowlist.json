@@ -55,6 +55,7 @@
       "id": "MedalEncoder",
       "sha256": "2a340c9b74598b306a3a1cae6d18208cac29e20979b722f0e6011fed43015840"
     },
+    
         {
       "id": "ProcessGovernor",
       "sha256": "5cd8689247dcc2ea539fa02b0e2f7bb84e9ad195d93d85eb1bb3615193c28851"
@@ -64,12 +65,32 @@
       "id": "crashpad_handler",
       "sha256": "751d0a805e24ce7bdb5ca8d1b4b5544947e499177353a13762efecffcd9eee0f"
     },
+    {
+      "id": "crashpad_handler",
+      "sha256": "0cbadcbd32c53f0547c1696c397a24c95de1c646d3f8f0d308eba4be607ac086"
+    },
+
+        {
+      "id": "RF_Launcher",
+      "sha256": "9469beb9d897c29ce02ed8ce6f7f7dfead7aab0f2e171a3b5ca0fe36bb8520d1"
+    },
+    
+    
 
     {
       "id": "blackdesert-handle",
       "processName": "BlackDesert64.exe",
       "allowedDetections": [
         "HANDLE_WRITE"
+      ],
+      "mode": "suppress_report",
+      "reason": "Sistema anti-cheat externo conhecido para jogos"
+    },
+    {
+      "id": "MedalEncoder",
+      "processName": "MedalEncoder.exe",
+      "allowedDetections": [
+        "VM_OPERATION,ALL_ACCESS"
       ],
       "mode": "suppress_report",
       "reason": "Sistema anti-cheat externo conhecido para jogos"
