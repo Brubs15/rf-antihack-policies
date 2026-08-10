@@ -17,6 +17,7 @@
     "C621DEA4F2A96308BAA240BAFEE66A8EB31EB8364B0B6540EEEB0E0D785A299F",
     "9f38d75481e347425b8dad9e5ce528f5f6096f1fcbe981fabd8f4d5a53f7c95d",
     "10db466025ba8749e7c4a887678c7c9612dfc649c114f7fb5bb1a295741624e8",
+    "e9437ad5363a4851d762ebbf0600f4eac081637d1e0c3eadfaabd43ac97a3e10",
     "E5F6G7H8..."
   ],
   "blockedProcessNames": [
@@ -33,7 +34,8 @@
   "ollydbg.exe",
   "windbg.exe",
   "TRFG_3.5.2.exe",
-  "cheatengine.exe"
+  "cheatengine.exe",
+  "BLVCK_HYDRA_3.0.4.3.exe"
   
   
 ]
