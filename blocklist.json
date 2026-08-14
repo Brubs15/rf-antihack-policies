@@ -1,9 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T22:30:00Z",
+  "updatedAt": "2026-08-14T18:22:00Z",
   "blockedSha256": [
     "25eaef8cdd04e3529bbfd47c35749c9f5e1c6717727cd4cc200dd066b4cec00f",
-    "224ae7b09d20ef3c885661e5898b90a8eafeb421e70cf444f78289d117bbcacc",
     "224ae7b09d20ef3c885661e5898b90a8eafeb421e70cf444f78289d117bbcacc",
     "31691987bedf9af2e64a5a1d17d835ad0d28ca2d77645e2e5721927390a00c49",
     "c621dea4f2a96308baa240bafee66a8eb31eb8364b0b6540eeeb0e0d785a299f",
@@ -13,36 +12,30 @@
     "3ba1d897dfb3547fa876bfa9c8691ed95f32b16600b544e550d1244b3af72181",
     "6c3b733995de91c87bb92540ee2ae131df8f832dd8d5aec5528fa198524ef2a4",
     "d5c07b37edbb3491b69fcb6bb4c050f52252cf85c4666c4cef50210c54f660d4",
-    "E6D38ECB19D55A6BC3BD163C8BDB605AD25692C1CF72BA9852E9EE18061692AA",
-    "C621DEA4F2A96308BAA240BAFEE66A8EB31EB8364B0B6540EEEB0E0D785A299F",
+    "e6d38ecb19d55a6bc3bd163c8bdb605ad25692c1cf72ba9852e9ee18061692aa",
     "9f38d75481e347425b8dad9e5ce528f5f6096f1fcbe981fabd8f4d5a53f7c95d",
     "10db466025ba8749e7c4a887678c7c9612dfc649c114f7fb5bb1a295741624e8",
     "e9437ad5363a4851d762ebbf0600f4eac081637d1e0c3eadfaabd43ac97a3e10",
     "7a174933e7215bc66aeee970dce62f6f93fa1a0a56f7cccacf75ddff26e07951",
     "e76c6273bc3af6d1d535dee2d3e3b915c5b54c207857c0b54d4ff0be9cc31040",
-    "C344051462AAF9C85F18F6FE3A9B0A980E4A5666910FE5D0D7F2E878A6CD70C9",
-    "E5F6G7H8..."
+    "c344051462aaf9c85f18f6fe3a9b0a980e4a5666910fe5d0d7f2e878a6cd70c9"
   ],
   "blockedProcessNames": [
-  "processhacker.exe",
-  "processhacker64.exe",
-  "systeminformer.exe",
-  "procexp.exe",
-  "procexp64.exe",
-  "processlasso.exe",
-  "pssuspend.exe",
-  "resmon.exe",
-  "x64dbg.exe",
-  "x32dbg.exe",
-  "ollydbg.exe",
-  "windbg.exe",
-  "perfmon.exe",
-  "TRFG_3.5.2.exe",
-  "cheatengine.exe",
-  "BLVCK_HYDRA_3.0.4.3.exe"
-  
-  
-]
+    "processhacker.exe",
+    "processhacker64.exe",
+    "systeminformer.exe",
+    "procexp.exe",
+    "procexp64.exe",
+    "processlasso.exe",
+    "pssuspend.exe",
+    "resmon.exe",
+    "x64dbg.exe",
+    "x32dbg.exe",
+    "ollydbg.exe",
+    "windbg.exe",
+    "perfmon.exe",
+    "TRFG_3.5.2.exe",
+    "cheatengine.exe",
+    "BLVCK_HYDRA_3.0.4.3.exe"
+  ]
 }
-
-
