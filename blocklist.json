@@ -21,7 +21,9 @@
     "c344051462aaf9c85f18f6fe3a9b0a980e4a5666910fe5d0d7f2e878a6cd70c9",
     "d985111718426250ca0b2bd7ea018d8f6b5bcdab4957ba9c5f2b7d34fa4de3a2",
     "facdeb59d4a6d9433d17232bc0f117c44efb2aa8ae772b60f519df8148b4ca32",
-    "f332ea6afa288ed92f7cee468b6d481a677b80cb55fbc308cc7dddd6b5887f54"
+    "f332ea6afa288ed92f7cee468b6d481a677b80cb55fbc308cc7dddd6b5887f54",
+    "2fb165b3ab97bfbd2f8e5ddcab8b6fa77e1651cd70dc684386193c313e09b95b",
+    "bfc3a4db7c73abe43323653f15adb0bb46bea014c0af83cd5ad9074fef6b9043"
   ],
   "blockedProcessNames": [
     "processhacker.exe",
@@ -39,6 +41,7 @@
     "perfmon.exe",
     "TRFG_3.5.2.exe",
     "cheatengine.exe",
-    "BLVCK_HYDRA_3.0.4.3.exe"
+    "BLVCK_HYDRA_3.0.4.3.exe",
+    "RFControl.exe"
   ]
 }
