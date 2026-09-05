@@ -78,6 +78,10 @@
       "id": "MedalEncoder",
       "sha256": "08a74f2a3f48e0327e2a9cdb19761f42381e506da8282371f855c455a9e5ecb4"
     },
+    {
+      "id": "GameManagerService",
+      "sha256": "008d334eabd65a62a01fc05df8105fba56d9e9b0a7779d4328d8016559ee4a23"
+    },
 
 
 
